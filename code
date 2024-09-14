@@ -1,0 +1,8 @@
+import random
+
+number = int(input("input a number and AI will try to guess it"))
+num = random.randint(0,101)
+if number == num:
+  print("AI guessed it")
+else:
+  print("oops maybe later")   
